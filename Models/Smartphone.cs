@@ -10,20 +10,6 @@ namespace DesafioPOO.Models
 
         private int Memoria { get; set; }
 
-        public Smartphone()
-        {
-            
-        }
-
-        public Smartphone(string numero, string modelo, string imei, int memoria)
-        {
-            Numero = numero;
-            Modelo = modelo;
-            IMEI = imei;
-            Memoria = memoria;
-            // TODO: Passar os parâmetros do construtor para as propriedades
-        }
-
         public void Ligar()
         {
             Console.WriteLine($"{Numero} Está ligando...");
